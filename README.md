@@ -11,3 +11,40 @@
 ## GANTT CHART TIMELINE
 ![image](https://github.com/JL-PH/Arduino-Light-Sensing-Curtain-Control-System/assets/172193580/67b1a59d-d819-42ff-b80d-5b9940593b48)
 
+## MATERIALS AND FUNCTIONS
+
+| Material         | Function                                                     |
+|------------------|--------------------------------------------------------------|
+| Stepper Motor    | To roll the curtain up or down.                              |
+| DC Motor         | To act as a fan, reducing heat by circulating air.           |
+| Servo Motor      | To move the Light Dependent Resistor (LDR) through the window.|
+| LDR Resistor     | To detect the intensity of light and activate the process.   |
+| Wood (sticks and plywood) | To construct the frame and support structure for the setup.|
+| Breadboard       | To make electrical connections and test circuits.            |
+| Jumper Wires     | To connect various components on the breadboard.             |
+| Paper            | To act as the blades of the DC motor (fan).                  |
+| Cloth            | To act as the curtain.                                       |
+
+## DESCRIPTION
+
+In this project, we aim to build an automated curtain and fan system that adjusts based on the light intensity in the room. The system uses a combination of stepper motors, DC motors, servo motors, and an LDR resistor. Here is a detailed explanation of the roles of each component:
+
+1. **Stepper Motor**: The stepper motor is responsible for rolling the curtain up and down. It provides precise control over the curtain's position, allowing for smooth and accurate adjustments based on the detected light levels.
+
+2. **DC Motor**: The DC motor serves as a fan to circulate air and reduce heat in the room. The fan blades are crafted from paper, providing a lightweight and effective solution for air movement.
+
+3. **Servo Motor**: The servo motor is used to move the LDR resistor to different positions across the window. This movement allows the LDR to measure light intensity at various points, ensuring a more comprehensive detection of ambient light levels.
+
+4. **LDR Resistor**: The Light Dependent Resistor (LDR) is the key sensor in this setup. It detects the intensity of light and triggers the corresponding actions of the curtain and fan. When the light intensity changes, the LDR sends a signal to the control system to adjust the curtain and fan accordingly.
+
+5. **Wood (Sticks and Plywood)**: The wood components are used to build a sturdy frame and support structure for the entire setup. The sticks and plywood provide stability and durability to ensure the components are securely mounted and function effectively.
+
+6. **Breadboard**: The breadboard is essential for creating electrical connections and testing circuits. It allows for easy modifications and troubleshooting during the development phase.
+
+7. **Jumper Wires**: Jumper wires are used to connect the various electronic components on the breadboard. They provide the necessary pathways for electrical signals to flow between components.
+
+8. **Paper**: The paper acts as the blades of the DC motor (fan). Its lightweight nature makes it ideal for creating efficient fan blades that can effectively circulate air.
+
+9. **Cloth**: The cloth is used as the curtain material. It is attached to the stepper motor mechanism to enable the rolling action, providing a practical and aesthetic solution for controlling light entry into the room.
+
+By integrating these materials and components, the project aims to create a smart and responsive system that enhances comfort and energy efficiency in the living space. The automated curtain and fan system will adjust based on real-time light intensity, ensuring optimal conditions without manual intervention.
